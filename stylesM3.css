@@ -1,11 +1,11 @@
-efesbody {		
+body {		
   font-family : "Segoe UI", Verdana, sans-serif;
   font-size : 1em;
   color:#808080 ;
   padding : 0.5em;
   margin:auto;
   width:95%; 
-  background-color: #bcd3e0;
+  background-color: #BCD3E0;
 }
 * {
   box-sizing: border-box;
@@ -83,7 +83,7 @@ table{
 
 /* Style the header */
 header {
-  background-color: #f1f1f1;
+  background-color: #BCD3E0;
   padding: 30px;
   text-align: right;
   background-image:url("../images/serveurscode.jpg");  
@@ -131,4 +131,11 @@ footer {
   #logoVHB{
     display: none;
   }
+}
+
+#image {
+  position: static;
+  top: 0;
+  left: 0; 
+  margin-right: 1000px;
 }
